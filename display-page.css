@@ -1,0 +1,45 @@
+main {
+  padding: 10px;
+  font-size: 0;
+  max-width: 800px;
+  align-content: center;
+}
+/*all blocks*/
+.inner {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  border: 1px solid black;
+}
+/*row 1: Blocks 1-2*/
+.row-1 {
+  height: 200px;
+  width: 50%;
+}
+/*row 2: Blocks 3-4*/
+.row-2 {
+  height: 300px;
+  width: 33.33%;
+}
+/*individual blocks*/
+.block-one {
+  background-color: green;
+}
+
+.block-two {
+  background-color: blue;
+}
+
+.block-three{
+  background-color: grey;
+}
+.block-four {
+  background-color: black;
+}
+
+.block-five {
+  background-color: orange;
+}
